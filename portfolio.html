@@ -315,17 +315,21 @@
 
         <div class="mail">
           <b class="text-white">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-          <ul class="right">
-            <li><button class="button-mail">E-mail</button></li>
-            <li class="button-telegram">
-              <a class="button-foot-primary" href="#">
-                Подписаться
-                <svg class="imgtel" width="24" height="24">
-                  <use href="./images/sprite.svg#icon-icon-send"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+          <form class="right">
+            <label class="button-mail"
+              ><input
+                class="button-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+            /></label>
+            <button class="button-telegram" type="button">
+              Подписаться
+              <svg class="imgtel" width="24" height="24">
+                <use href="./images/sprite.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
       <p class="footer-text">2020 | Developed by GoIT Students</p>
